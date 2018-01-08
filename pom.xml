@@ -62,7 +62,24 @@
 		</plugins>
 	</build>
 	<reporting>
+	
+	<project>
+<reporting>
+       <plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-changelog-plugin</artifactId> </plugin>
+</plugins>
+ </reporting>
+<scm>
+<connection>scm:svn:svn://dimespi/tp1Sir/monappli-web</connection>
+ <url>http://dimespi/svn/monappli-web</url>
+</scm>
+</project>
+	
 		<plugins>
+		
+		
 		<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
